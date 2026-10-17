@@ -1,5 +1,5 @@
 /*
- * Nome: <SEU NOME AQUI>
+ * Nome: Aline Barbosa Vidal RA: 10721348
  * CompPar - Lab Explorando-OpenMP - Exercício 3
  * Multiplicação de matrizes C = A * B (double, N x N) com bom uso de cache.
  *

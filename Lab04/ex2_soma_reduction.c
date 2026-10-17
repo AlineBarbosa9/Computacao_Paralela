@@ -1,5 +1,5 @@
 /*
- * Nome: <SEU NOME AQUI>
+ * Nome: Aline Barbosa Vidal RA: 10721348
  * CompPar - Lab Explorando-OpenMP - Exercício 2 (versão REDUCTION)
  * Soma de um vetor com #pragma omp for ... reduction(+: soma).
  *

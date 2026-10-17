@@ -1,5 +1,5 @@
 /*
- * Nome: <SEU NOME AQUI>
+ * Nome: Aline Barbosa Vidal RA: 10721348
  * CompPar - Lab Explorando-OpenMP - Exercício 2 (versão CRITICAL)
  * Soma de um vetor com variável compartilhada protegida por #pragma omp critical.
  *
