@@ -1,0 +1,20 @@
+$ ./contalinhas_inicial arvore_teste
+Contando linhas em .c/.h a partir de: arvore_teste (versão inicial sequencial)
+
+--- Resultado ---
+Total de linhas encontradas: 14302744
+Tempo de execução: 1.0777 segundos
+
+$ OMP_NUM_THREADS=4 ./contalinhas_tasks arvore_teste
+Contando linhas em .c/.h a partir de: arvore_teste (versão tasks, cutoff de arquivo = 0 bytes)
+
+--- Resultado ---
+Total de linhas encontradas: 14302744
+Tempo de execução: 0.4389 segundos
+
+$ OMP_NUM_THREADS=4 ./contalinhas_tasks arvore_teste 65536   # cutoff 64 KB
+Contando linhas em .c/.h a partir de: arvore_teste (versão tasks, cutoff de arquivo = 65536 bytes)
+
+--- Resultado ---
+Total de linhas encontradas: 14302744
+Tempo de execução: 0.4721 segundos

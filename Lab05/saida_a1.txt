@@ -1,0 +1,29 @@
+]633;E;echo '$ OMP_NUM_THREADS=4 ./analise_inicial';fd345ab9-c65f-47d5-9af6-4559c5360ff2]633;C$ OMP_NUM_THREADS=4 ./analise_inicial
+Inicializando dados...
+Dados inicializados.
+Calculando métricas (versão inicial)...
+Min calculado.
+Max calculado.
+Soma e Soma Quadrados calculados.
+
+--- Resultados ---
+Min: -500
+Max: 499
+Soma: -52548800
+Média: -0.50
+Desvio Padrão: 288.67
+Tempo de execução (cálculo): 0.0542 segundos
+
+$ OMP_NUM_THREADS=4 ./analise_sections
+Inicializando dados...
+Dados inicializados.
+Calculando métricas (versão sections)...
+Min, Max, Soma e Soma Quadrados calculados.
+
+--- Resultados ---
+Min: -500
+Max: 499
+Soma: -52548800
+Média: -0.50
+Desvio Padrão: 288.67
+Tempo de execução (cálculo): 0.0693 segundos

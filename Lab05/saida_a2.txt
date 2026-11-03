@@ -1,0 +1,24 @@
+$ OMP_NUM_THREADS=4 ./simulacao_inicial
+Inicializando partículas...
+Partículas inicializadas.
+Simulando um passo (versão inicial)...
+  Posições atualizadas.
+  Velocidades atualizadas.
+
+Simulação concluída.
+Checksum y: 524334304.665046 | Checksum vy: -1023103.836820
+Tempo de execução (simulação): 0.0511 segundos
+
+$ OMP_NUM_THREADS=4 ./simulacao_sections
+Inicializando partículas...
+Partículas inicializadas.
+Simulando um passo (versão sections)...
+  Posições e velocidades atualizadas.
+
+Simulação concluída.
+Checksum y: 524334304.665046 | Checksum vy: -1023103.836820
+Tempo de execução (simulação): 0.1159 segundos
+
+$ OMP_NUM_THREADS=4 ./simulacao_ingenua   # compilada com -DINGENUO
+Checksum y: 524324863.399439 | Checksum vy: -1023103.836820
+Tempo de execução (simulação): 0.0643 segundos
